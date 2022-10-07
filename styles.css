@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700;900&display=swap');
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	margin: 0px;
+	font-family: 'Raleway', sans-serif;
+	color: #171717;
+}
+
+.header {
+	max-width: 100vw;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	color: #171717;
+	background: white;
+	font-weight: 400;
+	font-size: 16px;
+}
+
+.header-logo img {
+	padding: 10px;
+	padding-left: 20px;
+	width: 180px;
+}
+
+.header-nav {
+	display: flex;
+	align-items: center;
+	padding: 40px;
+}
+
+.header-nav a {
+	margin: 0;
+	padding-left: 40px;
+	padding-right: 0;
+	font-weight: 700;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	color: #171717;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+.header-nav a:hover {
+	color: #5F27CD;
+	cursor: pointer;
+}
+
+.hero {
+	max-width: 100vw;
+	margin: 0;
+	color: #171717;
+	font-weight: 400;
+	font-size: 16px;
+}
+
+.hero-background {
+	background: linear-gradient(300deg, rgba(166,121,255,1) 0%, rgba(255,131,131,1) 62%);
+	position: abosolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.hero-content {
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: stretch;
+	display: flex;
+	width: 100%;
+	padding: 20px;
+}
+
+.hero-content-left {
+	justify-content: center;
+	align-items: stretch;
+	display: flex;
+	width: 50%;
+	min-width: 50%;
+	flex-direction: column;
+}
+
+.hero-content-left h1 {
+	font-weight: 900;
+	margin-bottom: 24px !important;
+	color: white;
+	font-size: 40px;
+	line-height: 56px;
+	margin: 0;
+	box-sizing: border-box;
+	display: block;
+	margin-block-start: 0.67em;
+	margin-block-end: 0.67em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+}
+
+.hero-content-left p {
+	font-weight: 400;
+	color: white;
+	margin-top: -8px !important;
+	font-size: 18px;
+	line-height: 28px;
+}
+
+.hero-buttons {
+	margin-bottom: 0;
+	margin: auto auto 8px;
+	line-height: 24px;
+	display: block;
+	margin-block-start: 1em;
+	margin-block-end: 1em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+}
+
+.hero-button-one {
+	background-color: #5F27CD;
+	padding: 7px 16px;
+	display: inline-block;
+	height: 24px;
+	border-radius: 4px;
+	font-size: 18px;
+	font-weight: 400;
+	margin-right: 10px;
+	border: 1px solid #5F27CD;
+}
+
+.hero-button-one a, .hero-button-two a, .main-content-button a {
+	color: white;
+	text-decoration: none;
+	font-weight: 400;
+}
+
+.hero-button-two {
+	background: transparent;
+	padding: 7px 16px;
+	display: inline-block;
+	height: 24px;
+	border-radius: 4px;
+	font-size: 18px;
+	font-weight: 400;
+	margin-left: 10px;
+	border: 1px solid white;
+}
+
+.hero-button-one:hover, .hero-button-two:hover, .main-content-button:hover {
+	background-color: black;
+	border: 1px solid black;
+	cursor: pointer;
+}
+
+.hero-content-right {
+	justify-content: center;
+	align-items: stretch;
+	display: flex;
+	width: 50%;
+	min-width: 50%;
+	flex-direction: column;
+}
+
+.hero-content-right img {
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+
+.main-content {
+	max-width: 100vw;
+	margin: 0 auto;
+	color: #171717;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	align-items: center;
+	padding-bottom: 0;
+	padding-top: 0px;
+}
+
+.main-content-section {
+	padding: 48px;
+	padding-top: 24px;
+	color: #171717;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+}
+
+.main-content-section h2 {
+	text-align: center;
+	margin-bottom: 0;
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 56px;
+	margin: 0;
+}
+
+.main-content-container {
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	padding: 16px;
+	width: 100%;
+}
+
+.main-content-container img {
+	display: block;
+	height: auto;
+	max-width: 80%;
+}
+
+.main-content-button {
+	background-color: #5F27CD;
+	padding: 7px 16px;
+	display: flex;
+	height: 24px;
+	border-radius: 4px;
+	font-size: 18px;
+	font-weight: 400;
+	margin-right: 10px;
+	border: 1px solid #5F27CD;
+}
+
+.main-buttons {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 10px;
+}
