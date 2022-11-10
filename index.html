@@ -7,8 +7,14 @@ body, html {
   margin: 0;
 }
 	
+a {
+	color: white;
+	text-decoration: none;
+}
+	
 a:hover {
-	color: black;
+	color: rgba(166,121,255,1);
+	cursor: pointer;
 }
 
 .bgimg {
@@ -49,6 +55,15 @@ hr {
 </style>
   
   <head>
+	<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-LC215MS3YF"></script>
+	<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+
+	gtag('config', 'G-LC215MS3YF');
+	</script>
 	  <title>Clubly: Venue Management System</title>
 	  <link rel="icon" type="image/x-icon" href="./branding/favicon.png">
   </head>
@@ -62,9 +77,11 @@ hr {
     <h1>Discover a modern approach to venue management.</h1>
     <hr>
     <p>We're creating technology that streamlines operations and marketing for your establishment.</p>
+	  <br>
+	  <a href="mailto:help@clubly.ca?subject=Clubly%20Inquiry">Learn more</a>
   </div>
   <div class="bottomleft">
-    <a href="https://www.instagram.com/clubly.ca" style="color: white; text-decoration: none;">@clubly.ca</a>
+    <a href="https://www.instagram.com/clubly.ca">@clubly.ca</a>
   </div>
 </div>
 
