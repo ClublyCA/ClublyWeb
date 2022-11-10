@@ -1,56 +1,63 @@
 <!DOCTYPE html>
-
 <html>
-	<head>
-		<link rel="stylesheet" href="styles.css">
-		<title>Clubly: Venue Management System</title>
-		<link rel="icon" type="image/x-icon" href="./branding/favicon.png">
-	</head>
-	
-	<body>
-		<div class="header">
-			<div class="header-logo">
-				<img src="./branding/logo.png">
-			</div>
-			<div class="header-nav">
-				<a href="mailto:giancarlo@clubly.ca">Launching soon</a>
-			</div>
-		</div>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700;900&display=swap');
+body, html {
+  height: 100%;
+  margin: 0;
+}
 
-		<div class="hero">
-			<div class="hero-background">
-				<div class="hero-content">
-					<div class="hero-content-left">
-						<h1>An all-in-one venue management solution for nightclubs and event spaces.</h1>
-						<p>Discover why your venue needs a new management system that streamlines operations and marketing.</p>
-						<div class="hero-buttons">
-							<div class="hero-button-one">
-								<a href="mailto:giancarlo@clubly.ca">Learn more</a>
-							</div>
-						<!--	<div class="hero-button-two">
-								<a href="#">Book a demo</a>
-							</div>-->
-						</div>
-					</div>
-					<div class="hero-content-right">
-						<img src="./assets/hero-image.png">
-					</div>
-				</div>
-			</div>
-		</div>
-<!--
-		<div class="main-content">
-			<div class="main-content-section" id="solutions">
-				<h2>Discover a modern approach to venue management technology that lets you focus on running your business.</h2>
-				<div class="main-content-container">
-					<img src="./assets/temp-solutions.png">
-				</div>
-				<div class="main-buttons">
-					<div class="main-content-button">
-						<a href="#">Discover our solutions</a>
-					</div>
-				</div>
-			</div>
-		</div>-->
-	</body>
+.bgimg {
+  background: linear-gradient(300deg, rgba(166,121,255,1) 0%, rgba(255,131,131,1) 62%);
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-size: 25px;
+}
+
+.topleft {
+  position: absolute;
+  top: 0;
+  left: 16px;
+}
+
+.bottomleft {
+  position: absolute;
+  bottom: 0;
+  left: 16px;
+}
+
+.middle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+hr {
+  margin: auto;
+  width: 40%;
+}
+</style>
+<body>
+
+<div class="bgimg">
+  <div class="topleft">
+    <img src="./branding/logo-white.png>
+  </div>
+  <div class="middle">
+    <h1>Launching soon...</h1>
+    <hr>
+    <p>Stay tuned.</p>
+  </div>
+  <div class="bottomleft">
+    <p>@clubly.ca</p>
+  </div>
+</div>
+
+</body>
 </html>
